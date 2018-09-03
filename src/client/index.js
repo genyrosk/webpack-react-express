@@ -1,5 +1,5 @@
-import style from './css/style.scss';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import App from './app';
 
-const arr = [1, 2, 3];
-const iAmJavascriptES6 = () => console.log(...arr);
+ReactDOM.render(<App />, document.getElementById('app'));

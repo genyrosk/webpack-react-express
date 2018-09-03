@@ -1,6 +1,6 @@
 {
   "parser": "babel-eslint",
-  "extends": ["airbnb"],
+  "extends": ["eslint:recommended", "airbnb"],
   "env": {
     "browser": true,
     "node": true
@@ -9,6 +9,9 @@
     "no-console": "off",
     "comma-dangle": "off",
     "react/jsx-filename-extension": "off",
-    "no-unused-vars": 1
+    "no-unused-vars": 1,
+    "camelcase": 0,
+    "object-curly-newline": 0,
+    "react/jsx-tag-spacing": 0
   }
 }
